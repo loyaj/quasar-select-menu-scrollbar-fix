@@ -51,7 +51,7 @@ import EssentialLink from 'components/EssentialLink.vue';
 const linksList = [
   {
     title: '[Q-Select] Dropdown width for long option items',
-    caption: 'github issue #12617',
+    caption: 'github discussion #12617',
     link: 'https://github.com/quasarframework/quasar/discussions/12617',
   },
   {
@@ -61,7 +61,7 @@ const linksList = [
   },
   {
     title: '[Q-Select] drop down width cannot be set',
-    caption: 'github issue #16630',
+    caption: 'github discussion #16630',
     link: 'https://github.com/quasarframework/quasar/discussions/16630',
   },
 ];

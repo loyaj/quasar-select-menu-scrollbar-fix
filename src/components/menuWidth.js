@@ -9,7 +9,7 @@ export default function useMenuWidth(qSelectRef) {
 
   const scrollbarWidth = ref(0);
   const maxItemWidth = computed(
-    () => selectWidth.value - scrollbarWidth.value + 'px'
+    () => selectWidth.value - scrollbarWidth.value + 'px',
   );
 
   let observer;
@@ -33,8 +33,9 @@ export default function useMenuWidth(qSelectRef) {
   }
 
   /*
-  Based on snippets from quasar github issue tracker
-  https://github.com/quasarframework/quasar/discussions/16630
+  Based on code linked by github user @metalsadman in the quasar issue tracker.
+  https://github.com/quasarframework/quasar/discussions/16630#discussioncomment-7707877
+  https://codepen.io/metalsadman/pen/PoOvqBB
   */
   function measureScrollBarWidth(menuEl) {
     if (isScrollbarVisible(menuEl)) {
