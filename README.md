@@ -10,7 +10,7 @@ This fix handles the case where scrollbars appear or disappear while the select 
 
 #### Fix
 
-To demonstrate fix, click the 'Few options' select to open its menu, then drag the bottom of window to shorten the viewport until the menu has scrollbars. Notice that the menu items reactively change width to adjust for the appearance/disappearance of the scrollbar in the menu.
+To demonstrate fix, click the 'Few options' select to open its menu, then drag the bottom of window to shorten the viewport until the menu has scrollbars. Notice that the menu items reactively change width to adjust for the appearance/disappearance of the scrollbar in the menu. [View in Stackblitz ⚡️](https://stackblitz.com/~/github.com/loyaj/quasar-select-menu-scrollbar-fix?file=src/pages/IndexPage.vue,src/components/menuWidth.js,src/components/SelectField.vue)
 
 ![fix](./repro/scrollbar-observer-fix.gif)
 
